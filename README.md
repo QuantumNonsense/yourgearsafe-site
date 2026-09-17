@@ -7,7 +7,10 @@ Static marketing site for GearSafe. No build step, no JavaScript, no third-party
 - `assets/styles.css`: styles; tokens mirror the `Gear Safe` Figma file (Design System v2, Prototype 2.0),
   as implemented in the app at `src/constants/gear-vault-theme.ts`
 - `assets/fonts/`: self-hosted Inter (SIL Open Font License, see `OFL-LICENSE.txt`)
-- `assets/mark.svg`: interim brand mark; replace with the official mark from the Figma "Brand Icons" page
+- `assets/brand-mark.png`, `favicon.png`, `apple-touch-icon.png`: the approved brand mark
+  ("Brand Icon / Music Gear + Vinyl", Figma `Gear Safe` › Brand Icons), taken from the app's
+  transparent `android-icon-foreground.png` and cropped to the artwork
+- Wordmark type follows the Figma "GearSafe Logo Text" spec: Inter 800, #FFF, #040507 stroke
 
 Local preview:
 
