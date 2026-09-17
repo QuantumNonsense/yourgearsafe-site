@@ -981,10 +981,6 @@ h3 {
 }
 
 .brand-mark {
-  width: 40px;
-  height: 40px;
-}
-
-@media (max-width: 420px) {
-  .brand-mark { width: 34px; height: 34px; }
+  width: 34px;
+  height: 34px;
 }
