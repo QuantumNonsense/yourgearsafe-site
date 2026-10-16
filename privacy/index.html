@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Privacy · GearSafe</title>
-  <meta name="description" content="How GearSafe and yourgearsafe.com handle your information.">
+  <meta name="description" content="How GearSafe collects, uses and protects your information.">
   <meta name="theme-color" content="#07080B">
   <meta name="color-scheme" content="dark">
   <link rel="canonical" href="https://yourgearsafe.com/privacy/">
@@ -34,51 +34,61 @@
     <div class="wrap">
       <article>
         <p class="eyebrow">Privacy</p>
-        <h1>Our privacy commitments</h1>
-        <p class="updated">Last updated: September 17, 2026</p>
-
-        <div class="callout">
-          <p>
-            GearSafe is in development and has not launched publicly. This page describes how this
-            website works today and the commitments GearSafe is built around. We will publish a
-            complete app privacy policy before GearSafe is available to the public, and we will
-            update this page whenever our practices change.
-          </p>
-        </div>
-
-        <h2>About this page</h2>
-        <p>
-          This page covers GearSafe and yourgearsafe.com ("GearSafe", "we", "us"). You can reach us
-          about anything on this page at
-          <a href="mailto:support@yourgearsafe.com">support@yourgearsafe.com</a>.
-        </p>
-
-        <h2>This website</h2>
-        <ul>
-          <li><strong>No cookies, analytics, or advertising trackers.</strong> This site doesn't set cookies or load third-party scripts, fonts, or tracking pixels.</li>
-          <li><strong>Server logs.</strong> Like any website, our hosting provider may briefly keep standard request logs (such as IP address, browser type, and the page requested) to deliver and secure the site. We don't use these logs to identify or profile visitors.</li>
-          <li><strong>Email.</strong> If you email us, we use your message and address only to reply and to follow up on your request.</li>
-        </ul>
-
-        <h2>The GearSafe app: what we're committed to</h2>
-        <ul>
-          <li><strong>Your inventory is private to your account.</strong> The items, photos, receipts, documents, values, and locations you record are visible only to you, unless you choose to share something.</li>
-          <li><strong>Serial numbers are treated as sensitive.</strong> They're displayed masked and are never shared with other users, partners, or our gear catalog.</li>
-          <li><strong>Catalog contributions are opt-in and off by default.</strong> If you choose to help improve the gear catalog, we share only product facts such as brand, model, category, and barcode. We never share serial numbers, photos, purchase prices, values, locations, notes, or anything that identifies you. You can turn this off at any time.</li>
-          <li><strong>We don't sell your personal information,</strong> and we don't use your data for advertising.</li>
-          <li><strong>We use service providers only to run GearSafe,</strong> such as secure hosting and database providers, under confidentiality and security obligations.</li>
-          <li><strong>You're in control.</strong> You'll be able to export your records and delete your account and its data.</li>
-        </ul>
-
-        <h2>Children</h2>
-        <p>GearSafe isn't directed to children under 13, and we don't knowingly collect their personal information.</p>
-
-        <h2>Questions or requests</h2>
-        <p>
-          To ask about your information or make a privacy request, email
-          <a href="mailto:support@yourgearsafe.com">support@yourgearsafe.com</a> with "Privacy" in the subject line. We'll respond as
-          quickly as we can.
-        </p>
+        <h1>GearSafe Privacy Policy</h1>
+        <p class="updated">Effective date: October 16, 2026</p>
+<p>GearSafe is an app for documenting music equipment: photos, serial numbers, receipts, values and PDF reports. It is operated by Quantum Nonsense LLC (&quot;GearSafe&quot;, &quot;we&quot;, &quot;us&quot;). This policy explains what GearSafe collects, why, who processes it for us, how long we keep it, and the choices you have.</p>
+<p>Questions or requests: <strong><a href="mailto:support@yourgearsafe.com">support@yourgearsafe.com</a></strong>.</p>
+<h2>The short version</h2>
+<ul><li>You put information into GearSafe so it can keep a record of your gear. We use it to run the app for you, and for nothing else.</li><li>We do not sell your information, show ads, or track you across other companies' apps or websites. GearSafe contains no analytics or advertising SDKs.</li><li>Full serial numbers are encrypted on our servers. The app shows only the last four characters.</li><li>Nothing about you or your gear goes to an insurance agent unless you choose one and agree on the sharing screen.</li><li>You can export a copy of your data, or delete your account and everything in it, from the app: <strong>More → Your data</strong>.</li></ul>
+<h2>What we collect</h2>
+<p><strong>Account information</strong></p>
+<ul><li>Your name and email address, when you create an account.</li><li>Your phone number, only if you add it under More → Profile.</li><li>Your password is handled by our authentication provider (Supabase Auth) and stored only as a salted hash. We never see it.</li></ul>
+<p><strong>Your gear records</strong></p>
+<ul><li>Item details you enter or confirm, such as category, brand, model, barcode (GTIN/UPC/EAN) and condition, and any other product facts recorded with the item (variant, part number, year or country of manufacture, status such as lost or stolen, notes).</li><li>Serial numbers. The full serial number is encrypted with AES-256-GCM before it is stored; the last four characters are stored separately so the app can show them.</li><li>The item's current (market) value and replacement value, where a suggested value came from and when, and its purchase date and price if recorded.</li><li>Names of the places where you keep gear (for example &quot;Home studio&quot; or &quot;Storage unit&quot;). GearSafe does not use your device's location.</li><li>Photos and documents you add: photos of equipment, serial plates and receipts, with their file names.</li><li>Reports you build: the title, a snapshot of the items in the report at that moment, the PDF itself and a SHA-256 fingerprint of the file.</li></ul>
+<p><strong>Settings and consent records</strong></p>
+<ul><li>Notification preferences, and whether you have turned on &quot;Help improve the gear catalog&quot; (and when).</li><li>If you share your details with an insurance agent: the agent you chose, your ZIP code, what you chose to share, the version of the consent text you agreed to, a fingerprint of that text, and the time.</li><li>Private feedback you choose to give about an agent you shared with (a star rating, tags and a comment). Only GearSafe sees the comment and who wrote it.</li></ul>
+<p><strong>Device and service information</strong></p>
+<ul><li>If you allow notifications: your device's push token, its platform (iOS) and the device name iOS reports, so we can deliver notifications to that device.</li><li>A short-lived record of which server features your account used and when (kept 7 days), to enforce fair-use limits.</li><li>Our hosting and sign-in provider (Supabase) records the IP address and device details of sign-ins and requests, for security and reliability. GearSafe's own code does not store your IP address.</li></ul>
+<p><strong>If you list yourself as an insurance agent</strong></p>
+<ul><li>Your National Producer Number (NPN), licence state, licence number, lines of authority and expiry date; your agency name, service area and the public email, phone and website you choose to publish; the version and time of the agent terms you accepted; and the date GearSafe checked your licence against public records.</li></ul>
+<h2>How we use it</h2>
+<ul><li>To provide the app: store your records, show them back to you, build your reports, find suggested values and send the notifications you asked for.</li><li>To keep the service secure and working: authentication, fair-use limits, preventing abuse and fixing problems.</li><li>To carry out a sharing you started with an insurance agent, only as described on the sharing screen.</li><li>To respond when you contact us.</li></ul>
+<p>We do not use your information for advertising, we do not sell or rent it, and we do not share it for cross-context behavioural advertising. We do not build profiles about you.</p>
+<h2>Who processes it for us</h2>
+<p>We use the service providers below. Each receives only what it needs for the task described.</p>
+<div class="table-wrap"><table><thead><tr><th scope="col">Provider</th><th scope="col">What it does for GearSafe</th><th scope="col">What it receives</th></tr></thead><tbody>
+<tr><td>Supabase</td><td>Hosting, database, file storage, sign-in</td><td>Everything stored in your account</td></tr>
+<tr><td>Expo (650 Industries)</td><td>Delivers push notifications</td><td>Your push token and the notification text</td></tr>
+<tr><td>Google Cloud Vision</td><td>Reads text, such as a serial number, from a photo you take</td><td>The photo only, with no account information</td></tr>
+<tr><td>Anthropic</td><td>Finds retail prices for an item; for features that identify equipment from a photo, analyses that photo</td><td>Item facts (brand, model, variant, year, category) for prices; the photo for identification. No account information</td></tr>
+<tr><td>eBay</td><td>Searches listings for a used-market price and looks up products by barcode</td><td>Search terms such as brand and model, or a barcode. No account information</td></tr>
+<tr><td>Inventorious</td><td>Receives product facts (brand, model, category, barcode) to improve a shared gear catalog, <strong>only if you turn on &quot;Help improve the gear catalog&quot;</strong></td><td>Product facts only. Never serial numbers, photos, values or anything that identifies you</td></tr>
+<tr><td>Apple</td><td>App Store distribution and push delivery to your iPhone</td><td>As described in Apple's own privacy policy</td></tr>
+</tbody></table></div>
+<p>Connected but switched off today: an email delivery provider (it would receive your email address and the message text), GS1 (barcode lookup; it would receive only the barcode) and Reverb (used-market prices; it would receive only the brand and model). We will update this policy before turning any of them on.</p>
+<p>Your account data, photos and reports are stored with Supabase, on Amazon Web Services infrastructure. These providers may process data in the United States and in other countries where they operate.</p>
+<h2>Insurance agents</h2>
+<p>GearSafe is not an insurance company, agent, broker or producer, and does not recommend agents, carriers, coverage or amounts. GearSafe includes an optional directory of licensed agents you can choose to share your records with. Nothing goes to an agent unless you open that agent's listing, choose what to share and agree on the sharing screen. Sharing is not yet available: it opens after a regulatory review.</p>
+<p>When sharing is available and you use it:</p>
+<ul><li>The agent receives your name, email, phone and ZIP code, and, only if you switch them on, your report (with serial numbers shown as the last four characters), full serial numbers on request, and your photos.</li><li>The agent can open what you shared for 90 days, or until you revoke it under Reports → Shared with agents. At the end of that time, or when you revoke, the shared copy is removed from what the agent can see in GearSafe. Anything the agent already downloaded stays with them and we cannot recall it.</li><li>You can see a record of each time the agent viewed your details, your report or your full serial numbers.</li></ul>
+<h2>How long we keep it</h2>
+<ul><li>Your account, gear records, photos, documents and reports: until you delete your account. You can remove individual photos and archive items in the app; archived items stay in your account until you delete it.</li><li>Photos sent for equipment identification: 30 days. Identification sessions: 90 days.</li><li>Suggested-value lookups cached for everyone (keyed by product, with no account information): 7 days.</li><li>Fair-use records: 7 days. In-app notifications: 90 days. Push tokens: 30 days after they are switched off.</li><li>Details shared with an agent: until the 90-day access ends or you revoke it, when the shared copy is redacted.</li><li>Uploads that never finished: 24 hours.</li></ul>
+<h2>Deleting your account and exporting your data</h2>
+<p>In the app, go to <strong>More → Your data</strong>.</p>
+<ul><li><strong>Export my data</strong> creates a file of your account information and records that you can save or send anywhere. Full serial numbers are not included, and photos and PDFs stay in your account rather than being copied into the file.</li><li><strong>Delete my account</strong> permanently removes your account, gear records, photos, documents, reports, notification settings and sharing records, and the files in storage. This cannot be undone. A minimal record that an account was deleted, and when, is kept for security and accountability. If you were a listed agent, musicians who shared with you keep their own record of when their details were viewed. Sign-in security logs kept by our hosting provider are deleted on that provider's own schedule.</li></ul>
+<p>You can also email <strong><a href="mailto:support@yourgearsafe.com">support@yourgearsafe.com</a></strong> to ask for a copy, a correction or deletion. We will confirm your identity before acting and answer within 30 days.</p>
+<h2>Security</h2>
+<p>Connections to GearSafe use HTTPS. Data is stored in private storage that only your account can read, enforced by database access rules on every table. Full serial numbers are encrypted at rest with AES-256-GCM. The app never shows them in full, even to you. GearSafe decrypts one only when an agent you chose to show full serials to asks for it (each of those views is recorded for you to see), or when you ask us for your own serials by email and we have confirmed your identity. No system is perfectly secure; if we learn of a breach that affects you, we will tell you as the law requires.</p>
+<h2>Age</h2>
+<p>GearSafe is for adults: you must be 18 or older to use it, and it is rated 18+ on the App Store. We do not knowingly collect personal information from anyone under 18. If you believe someone under 18 has given us information, contact us and we will delete it.</p>
+<h2>Your rights</h2>
+<p>Depending on where you live, including under the Colorado Privacy Act and the California Consumer Privacy Act, you may have the right to know what we hold about you, to get a copy, to correct it, to delete it, and to opt out of sale, targeted advertising and profiling. We do none of those last three. Most of these rights you can use directly in the app; for the rest, including a copy of your full serial numbers (which the app and the export do not show), email <strong><a href="mailto:support@yourgearsafe.com">support@yourgearsafe.com</a></strong>. We will not treat you differently for using them. If we decline a request you can appeal by replying to our answer, and in Colorado you can contact the Colorado Attorney General.</p>
+<h2>If you are in the European Economic Area, the United Kingdom or Switzerland</h2>
+<ul><li><strong>Controller.</strong> Quantum Nonsense LLC is the controller of your personal data. Contact: <strong><a href="mailto:support@yourgearsafe.com">support@yourgearsafe.com</a></strong>.</li><li><strong>Legal bases.</strong><ul><li><em>Contract</em>: to provide the app you signed up for: your account, records, photos, reports, suggested values and the notifications you turn on.</li><li><em>Consent</em>: push notifications, &quot;Help improve the gear catalog&quot;, and each sharing with an insurance agent. You can withdraw consent at any time in the app; this does not affect what happened before.</li><li><em>Legitimate interests</em>: keeping GearSafe secure, enforcing fair-use limits, preventing abuse and fixing problems. You can object to this; contact us.</li><li><em>Legal obligation</em>: where the law requires us to keep or disclose information.</li></ul></li><li><strong>International transfers.</strong> GearSafe is operated from the United States, and several of the providers above process data there. Where data leaves the EEA, the UK or Switzerland, we rely on the provider's certification under the EU-U.S. Data Privacy Framework (and its UK and Swiss extensions) or on the European Commission's Standard Contractual Clauses (with the UK addendum), as each provider offers.</li><li><strong>Your rights.</strong> You can ask for access to your data, a copy in a portable format, correction, erasure, restriction of processing, and you can object to processing based on legitimate interests. Export and deletion are built into the app (More → Your data); for anything else, email us. You also have the right to complain to your local data protection authority.</li><li><strong>No automated decisions.</strong> GearSafe makes no decisions about you that have legal or similarly significant effects based only on automated processing.</li></ul>
+<h2>Changes</h2>
+<p>If we change this policy we will update the effective date above, and for significant changes we will tell you in the app before they apply.</p>
+<h2>Contact</h2>
+<p>Quantum Nonsense LLC. Email: <strong><a href="mailto:support@yourgearsafe.com">support@yourgearsafe.com</a></strong>.</p>
       </article>
     </div>
   </main>
@@ -88,6 +98,9 @@
       <span>© 2026 GearSafe</span>
       <nav class="footer-links" aria-label="Footer">
         <a href="/">Home</a>
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+        <a href="/support/">Support</a>
         <a href="mailto:support@yourgearsafe.com">support@yourgearsafe.com</a>
       </nav>
     </div>

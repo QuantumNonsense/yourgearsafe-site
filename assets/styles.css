@@ -804,6 +804,38 @@ h3 {
   color: var(--text-primary);
 }
 
+.legal ul ul {
+  margin-top: 6px;
+}
+
+.legal .table-wrap {
+  margin: 16px 0;
+  overflow-x: auto;
+}
+
+.legal table {
+  width: 100%;
+  min-width: 36em;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+.legal th,
+.legal td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border-default);
+  text-align: left;
+  vertical-align: top;
+}
+
+.legal th {
+  color: var(--text-primary);
+}
+
+.legal td {
+  color: var(--text-secondary);
+}
+
 .callout {
   margin-top: 28px;
   padding: 18px 20px;
